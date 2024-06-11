@@ -1,19 +1,11 @@
-import React from 'react'
+import React from 'react';
+import MainRouter from './routes/MainRouter';
 
-import NavBarComponent from './components/NavBarComponent/NavBarComponent'
-import ItemListContainerComponent from './components/ItemListContainerComponent/ItemListContainerComponent'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
-  
-
-  return (
-    <>
-      <NavBarComponent />
-      <ItemListContainerComponent greeting="Bienvenid@s a la tienda de regalos Fontana de Luna"/>
-    </>
-  )
+  return <MainRouter />
 }
 
 export default App
